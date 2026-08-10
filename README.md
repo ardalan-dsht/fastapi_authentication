@@ -1,3 +1,5 @@
+
+
 # Fastapi Authentication
 This module provides a straightforward implementation of OAuth2 authentication for your FastAPI application, utilizing MongoDB for user authentication and employing tokens for endpoint access.
 
@@ -10,6 +12,8 @@ MONGO_USER_HOST=localhost
 MONGO_USER_PORT=27017
 MONGO_USER_DBNAME=authentication
 MONGO_USER_COLLECTION=users
+SECRET_KEY=your-secret-key
+ALGORITHM=HS256
 ```
 
 This is a simple example on how you can use this module.  
